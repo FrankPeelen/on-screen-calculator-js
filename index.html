@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8">
 		<title>Calculator</title>
-		<link rel="stylesheet" src="styles.css">
-		<script src="javascript.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="normalize.css">
 	</head>
 
 	<body>
-		HELLO WORLD
+		<div id="container">
+
+			<div class="row">
+				<button class="operator big" type="button" value="CLEAR">CLEAR</button>
+				<button class="operator small" type="button" value="/">/</button>
+			</div>
+
+			<div class="row">
+				<button class="num small" type="button" value="7">7</button>
+				<button class="num small" type="button" value="8">8</button>
+				<button class="num small" type="button" value="9">9</button>
+				<button class="operator small" type="button" value="x">x</button>
+			</div>
+
+			<div class="row">
+				<button class="num small" type="button" value="4">4</button>
+				<button class="num small" type="button" value="5">5</button>
+				<button class="num small" type="button" value="6">6</button>
+				<button class="operator small" type="button" value="-">-</button>
+			</div>
+
+			<div class="row">
+				<button class="num small" type="button" value="1">1</button>
+				<button class="num small" type="button" value="2">2</button>
+				<button class="num small" type="button" value="3">3</button>
+				<button class="operator small" type="button" value="+">+</button>
+			</div>
+
+			<div class="row">
+				<button class="num big" type="button" value="0">0</button>
+				<button class="operator small" type="button" value="=">=</button>
+			</div>
+
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="javascript.js"></script>
 	</body>
+
 </html>
